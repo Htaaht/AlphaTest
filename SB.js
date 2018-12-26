@@ -237,7 +237,7 @@ function play(guild, song) {
 }
 
 const adminprefix = "$vip";
-const devs = ['9999999998889999'];
+const devs = ['304633794856615946'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -263,3 +263,4 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 });
 
    
+client.login(process.env.BOT_TOKEN);//
