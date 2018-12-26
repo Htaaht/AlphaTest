@@ -263,4 +263,3 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 });
 
    
-	client.login("NDk2NTkzNDg4MzczMjE5MzI4.DpS4Rw.U83BaV4Ui7QAduvt8nhXEk_CZh4");
